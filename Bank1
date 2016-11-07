@@ -1,0 +1,27 @@
+<html>
+<head>
+  
+</head>
+
+<font size="500%">
+
+<H1> Enter dollar amount needed for bank withdrawal?</H1>
+
+  How much money do you need? <br>$
+   <input type="text" style="width:250px; height:100px;" id="ques1" />
+  
+<center>
+   <button type="button" style="width:250px; height:100px;" onclick="isright(document.getElementById('ques1').value )"><font size="7">Submit</font></button>
+</center>
+
+<script> 
+ 
+function isright(el) {
+   if (el==13750) document.location.href = "http://projects.nn.k12.va.us/hidenwood/dognapped/6anelson.html"; else alert("Please try again.");
+   
+}
+</script>
+ 
+</html>
+ 
+ 
